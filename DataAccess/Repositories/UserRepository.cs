@@ -28,6 +28,9 @@ namespace DataAccess.Repositories
             await _context.Users!
             .AnyAsync(x => string.Equals(x.UserName, username, StringComparison.CurrentCultureIgnoreCase),
                 cancellationToken);
+
+        public async Task<User> LoadUserByUserNameAsync(string username, CancellationToken cancellationToken = new()) =>
+            await _context.Users!.FirstOrDefaultAsync(x => x.UserName == username, cancellationToken);
     }
 
 }
