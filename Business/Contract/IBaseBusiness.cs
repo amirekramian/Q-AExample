@@ -11,7 +11,6 @@ namespace Business
     public interface IBaseBusiness<T> where T : BaseEntity
     {
         Task<string> CreateAsync(T t, CancellationToken cancellationToken);
-        Task<List<T>> GetAllAsync(SieveModel sieveModel, CancellationToken cancellationToken);
         Task<string> UpdateAsync(T t, CancellationToken cancellationToken);
         Task<string> DeleteAsync(int id, CancellationToken cancellationToken);
     }

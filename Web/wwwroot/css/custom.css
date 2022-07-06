@@ -1,0 +1,202 @@
+﻿#covidVaccinationArchiveMap, #inquiryMap {
+	height: calc(100vh - 160px);
+	z-index: 0;
+	min-height: 500px;
+}
+
+	#covidVaccinationArchiveMap td,
+	#inquiryMap td {
+		vertical-align: middle !important;
+	}
+
+	#covidVaccinationArchiveMap > tbody > tr > td,
+	#inquiryMap > tbody > tr > td {
+		animation: row-animation 0.5s;
+	}
+
+	#covidVaccinationArchiveMap > tbody > tr,
+	#inquiryMap > tbody > tr {
+		text-align: center;
+	}
+
+.injectionTimeIcon {
+	height: 30px
+}
+
+@keyframes row-animation {
+	from {
+		transform: scale(0);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
+.table-wrapper {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 260px;
+	transition: all 0.3s ease;
+	width: 100%;
+	overflow: auto;
+}
+
+	.table-wrapper.tableCollapse {
+		height: 82px !important
+	}
+
+		.table-wrapper.tableCollapse .x_panel {
+			height: 0 !important;
+			min-height: 66px !important;
+			overflow: hidden;
+		}
+
+	.table-wrapper.tableExpand {
+		height: calc(100vh - 110px);
+	}
+
+		.table-wrapper.tableExpand .x_panel {
+			height: calc(100vh - 70px);
+		}
+
+.liveMapLegend {
+	padding: 6px 8px;
+	font-size: 18px;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+	.liveMapLegend h2 {
+		font-size: 18px;
+		margin: 0 0 5px;
+		padding: 10px;
+		color: #777;
+	}
+
+	.liveMapLegend.stopped .stopMapBtn {
+		display: none;
+	}
+
+	.liveMapLegend .playMapBtn {
+		display: none;
+	}
+
+	.liveMapLegend.recordSelected .playMapBtn {
+		display: none;
+	}
+
+	.liveMapLegend.stopped .playMapBtn {
+		display: block;
+	}
+
+.covidVaccinationArchiveTableLegend {
+	float: right;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.covidVaccinationTableLegend {
+	margin: 0 auto;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+}
+
+#covidVaccinationArchiveInjectionCounter {
+	margin: 0 5px;
+	display: flex;
+	align-items: center;
+}
+
+#covidVaccinationInjectionCounter {
+	display: flex;
+	margin: 0 5px;
+}
+
+.controlsWrapper {
+	display: flex;
+}
+
+.covidVaccinationTableLegend .clock {
+	display: flex;
+	align-items: center;
+	direction: ltr;
+}
+
+	.covidVaccinationTableLegend .clock .clockdigit:nth-child(1),
+	.covidVaccinationTableLegend .clock .clockdigit:nth-child(4),
+	.covidVaccinationTableLegend .clock .clockdigit:nth-child(7) {
+		margin: 0 2px 0 0;
+	}
+
+.covidVaccinationArchiveTableLegendWrapper .clock {
+	position: absolute;
+	top: 10px;
+	left: 80px;
+	display: flex;
+	align-items: center;
+	direction: ltr
+}
+
+	.covidVaccinationArchiveTableLegendWrapper .clock .clockdigit:nth-child(1),
+	.covidVaccinationArchiveTableLegendWrapper .clock .clockdigit:nth-child(4),
+	.covidVaccinationArchiveTableLegendWrapper .clock .clockdigit:nth-child(7) {
+		margin: 0 2px 0 0;
+	}
+
+.clockDivider {
+	animation: clock-divider-animation 1s infinite;
+}
+
+@keyframes clock-divider-animation {
+	0% {
+		opacity: 1;
+		color: black;
+	}
+
+	50% {
+		opacity: 0;
+		color: black;
+	}
+
+	100% {
+		opacity: 1;
+		color: black;
+	}
+}
+
+@media (max-width: 767px) {
+	.table-wrapper {
+		height: 180px;
+	}
+
+		.table-wrapper .x_panel {
+			min-height: 180px;
+		}
+}
+
+@media (min-width: 1440px) {
+	.table-wrapper {
+		height: 260px;
+	}
+
+		.table-wrapper .x_panel {
+			min-height: 260px;
+		}
+}
+
+@media (min-width: 2560px) {
+	.table-wrapper {
+		height: 400px;
+	}
+
+		.table-wrapper .x_panel {
+			min-height: 400px;
+		}
+}

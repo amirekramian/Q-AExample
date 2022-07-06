@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "RMNhben5KxTgSFIhgov0rpmoW6CMPMpdyM78ObUxByzCEaJHLGUBzWICvStOSIyeo+5RZlrIYUOVhlRR3Xj3+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amir\\source\\repos\\StackExample\\Common\\Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amir\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\sieve\\2.5.5\\sieve.2.5.5.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
