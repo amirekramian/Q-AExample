@@ -24,6 +24,9 @@ namespace Business.Businesses
         public async Task<Post> DiplayPostByIDAsync (int id , CancellationToken cancellationToken= new())=>
             await _unitOfWork.PostRepository.DiplayPostByIDAsync(id, cancellationToken);
 
+        public async Task<bool?> LikeAPost(int id , CancellationToken cancellationToken= new())=>
+            await _unitOfWork.PostRepository.LikeAPost(id, cancellationToken);
+
      
     }
 }

@@ -20,6 +20,10 @@ namespace DataAccess.Repositories
         public async Task<List<Comment?>> DisplayAllPostCommentsAsync(int postid, CancellationToken cancellationToken = new()) =>
             await _context.Comments!.Where(x => x.PostID == postid).ToListAsync(cancellationToken);
 
+        public async Task<List<Comment>> DisplaySortedCommentsByLike(int postid, CancellationToken cancellationToken = new()) =>
+            await _context.Comments.Where(x=>x.PostID == postid).OrderByDescending(x=>x.CommentLikeCount).ToListAsync(cancellationToken);
+
+
     }
 
 }

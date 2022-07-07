@@ -15,5 +15,7 @@ namespace DataAccess.Contracts
         Task<T> UpdateAsync(T t, CancellationToken cancellationToken);
         Task<T> DeleteAsync(T t, CancellationToken cancellationToken);
         Task<T> DeleteByID(int ID, CancellationToken cancellationToken);
+        //Task<List<T>> GetAll(CancellationToken cancellationToken);
+
     }
 }

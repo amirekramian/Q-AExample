@@ -19,5 +19,8 @@ namespace Business.Businesses
         }
         public async Task<List<Comment>> DisplayAllPostCommentsAsync(int postid , CancellationToken cancellationToken= new())=>
             await _unitOfWork.CommentRepository.DisplayAllPostCommentsAsync(postid, cancellationToken);
+
+        public async Task<List<Comment>> DisplayCommentsSortedByLike(int postid , CancellationToken cancellationToken=new())=>
+            await _unitOfWork.CommentRepository.DisplaySortedCommentsByLike(postid, cancellationToken);
     }
 }

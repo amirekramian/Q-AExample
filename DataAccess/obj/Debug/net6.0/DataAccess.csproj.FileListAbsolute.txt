@@ -3,3 +3,13 @@ C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.G
 C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
 C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
 C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\amir\source\repos\StackExample\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\amir\source\repos\StackExample\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\amir\source\repos\StackExample\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\amir\source\repos\StackExample\DataAccess\bin\Debug\net6.0\Model.dll
+C:\Users\amir\source\repos\StackExample\DataAccess\bin\Debug\net6.0\Model.pdb
+C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\amir\source\repos\StackExample\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

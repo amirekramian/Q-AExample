@@ -27,5 +27,21 @@ namespace DataAccess.Repositories
 
         public async Task<Post?> DisplayLastUserPost(int userid, CancellationToken cancellationToken = new()) =>
             await _context.Posts!.Where(x => x.UserID == userid && x.IsDeleted==false).LastAsync(cancellationToken);
+        public async Task<bool?> LikeAPost(int PostID, CancellationToken cancellation = new())
+        {
+            try
+            {
+                var selectedpost = _context.Posts.Where(x => x.ID == PostID).FirstOrDefault();
+                selectedpost.LikeCount++;
+                _context.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        
+            
     }
 }
