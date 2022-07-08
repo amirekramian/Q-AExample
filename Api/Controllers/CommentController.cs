@@ -21,6 +21,7 @@ namespace Api.Controllers
 
         public CommentController(Logger logger,IBaseBusiness<Comment> commentbusiness)
         {
+
             _commentBusiness = commentbusiness as CommentBusiness;
             _logger = logger;
         }
