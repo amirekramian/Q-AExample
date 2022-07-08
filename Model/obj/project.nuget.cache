@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SnPmq2Sgi426k0l3HM2ixx/C9ymIjwer0cdJsuRTwSJi/ITFbnnm+Tl8hIVzfSs4TF96wcgNj7KD1g1VlLUKAg==",
+  "dgSpecHash": "0X/SPb1lTYPiOPg/NjpIAdrUgtOwns8lQULGXQRlPcNtCpkLOIt3mrxMYCMyNtAdkxVlN8Er5Fnww+NCjh2Gig==",
   "success": true,
   "projectFilePath": "C:\\Users\\amir\\source\\repos\\StackExample\\Model\\Model.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\amir\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\amir\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\amir\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\amir\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
     "C:\\Users\\amir\\.nuget\\packages\\sieve\\2.5.5\\sieve.2.5.5.nupkg.sha512",
     "C:\\Users\\amir\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
     "C:\\Users\\amir\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.3.1, )"
@@ -125,6 +129,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -198,6 +206,18 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.3.1, )"
@@ -261,6 +281,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Sieve": {
               "target": "Package",

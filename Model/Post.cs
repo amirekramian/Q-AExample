@@ -12,13 +12,11 @@ namespace Model
         public string? Title { get; set; }
         public string? desciption { get; set; }
         public bool IsArchive { get; set; }
-        public bool IsDeleted { get; set; }
         public int LikeCount { get; set; }
-        //public virtual User? User { get; set; }
-        public User? User { get; set; }
+        public virtual User? User { get; set; }
         [ForeignKey("User")]
         public int UserID { get; set; }
-        public virtual Comment? Comment { get; set; }
+        public virtual List<Comment?> Comment { get; set; }
 
 
     }

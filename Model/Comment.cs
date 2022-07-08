@@ -11,12 +11,8 @@ namespace Model
     {
         public string? Text { get; set; }
         public int CommentLikeCount { get; set; }
-        public Post? Post { get; set; }
+        public virtual Post? Post { get; set; }
         [ForeignKey("Post")]
         public int PostID { get; set; }
-        public User? User { get; set; }
-        [ForeignKey("User")]
-        public int UserID { get; set; }
-
     }
 }

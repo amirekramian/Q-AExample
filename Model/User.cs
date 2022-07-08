@@ -12,8 +12,7 @@ namespace Model
         public string? UserName { get; set; }
         public string? HashedPassword { get; set; }
         public string? Email { get; set; }   
-        public virtual Comment? Comment { get; set; }
-        public virtual Post? Post { get; set; }
+        public virtual List<Post?> Post { get; set; }
 
     }
 }

@@ -43,10 +43,11 @@ namespace DataAccess.Context
             {
                 new()
                 {
+                    ID=1,
                     Text="the first comment",
                     CommentLikeCount=0,
-                    PostID=1,
-                    UserID =1
+                    PostID=1
+                    
                     
                 }
             });
