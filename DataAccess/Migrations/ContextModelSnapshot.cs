@@ -59,10 +59,10 @@ namespace DataAccess.Migrations
                         {
                             ID = 1,
                             CommentLikeCount = 0,
-                            InsertedDateTime = new DateTime(2022, 7, 8, 7, 43, 59, 59, DateTimeKind.Local).AddTicks(141),
+                            InsertedDateTime = new DateTime(2022, 7, 9, 8, 51, 35, 114, DateTimeKind.Local).AddTicks(2199),
                             PostID = 1,
                             Text = "the first comment",
-                            UpdatedDateTime = new DateTime(2022, 7, 8, 7, 43, 59, 59, DateTimeKind.Local).AddTicks(141)
+                            UpdatedDateTime = new DateTime(2022, 7, 9, 8, 51, 35, 114, DateTimeKind.Local).AddTicks(2199)
                         });
                 });
 
@@ -108,11 +108,11 @@ namespace DataAccess.Migrations
                         new
                         {
                             ID = 1,
-                            InsertedDateTime = new DateTime(2022, 7, 8, 7, 43, 59, 59, DateTimeKind.Local).AddTicks(117),
+                            InsertedDateTime = new DateTime(2022, 7, 9, 8, 51, 35, 114, DateTimeKind.Local).AddTicks(2154),
                             IsArchive = false,
                             LikeCount = 0,
                             Title = "first Post",
-                            UpdatedDateTime = new DateTime(2022, 7, 8, 7, 43, 59, 59, DateTimeKind.Local).AddTicks(117),
+                            UpdatedDateTime = new DateTime(2022, 7, 9, 8, 51, 35, 114, DateTimeKind.Local).AddTicks(2154),
                             UserID = 1,
                             desciption = "it is the first post"
                         });
@@ -153,8 +153,8 @@ namespace DataAccess.Migrations
                         {
                             ID = 1,
                             HashedPassword = "1574ad62d48a37f847699d7d2157105a5a5fd6ed323a3497fa41c7731229bf23",
-                            InsertedDateTime = new DateTime(2022, 7, 8, 7, 43, 59, 59, DateTimeKind.Local).AddTicks(56),
-                            UpdatedDateTime = new DateTime(2022, 7, 8, 7, 43, 59, 59, DateTimeKind.Local).AddTicks(56),
+                            InsertedDateTime = new DateTime(2022, 7, 9, 8, 51, 35, 114, DateTimeKind.Local).AddTicks(2066),
+                            UpdatedDateTime = new DateTime(2022, 7, 9, 8, 51, 35, 114, DateTimeKind.Local).AddTicks(2066),
                             UserName = "Amir"
                         });
                 });

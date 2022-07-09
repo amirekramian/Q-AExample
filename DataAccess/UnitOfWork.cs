@@ -15,7 +15,7 @@ namespace DataAccess
     {
         private UserRepository? _userRepository;
 
-        private UserRepository? _postRepository;
+        private PostRepository? _postRepository;
 
         private CommentRepository? _commentRepository;
 
@@ -31,8 +31,8 @@ namespace DataAccess
         public UserRepository? UserRepository =>
             _userRepository ??= new UserRepository(_context, _sieveProcessor);
 
-        public UserRepository PostRepository => 
-            _postRepository ??= new UserRepository(_context, _sieveProcessor);
+        public PostRepository PostRepository => 
+            _postRepository = new PostRepository(_context, _sieveProcessor);
         public CommentRepository CommentRepository => 
             _commentRepository ??= new CommentRepository(_context, _sieveProcessor);
 

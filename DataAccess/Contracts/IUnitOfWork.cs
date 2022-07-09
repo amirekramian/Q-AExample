@@ -10,7 +10,7 @@ namespace DataAccess.Contracts
     public interface IUnitOfWork
     {
         UserRepository? UserRepository { get; }
-        UserRepository PostRepository { get; }
+        PostRepository PostRepository { get; }
         CommentRepository CommentRepository { get; }
         void commit();
         Task<int> CommitAsync(CancellationToken cancellationToken);
